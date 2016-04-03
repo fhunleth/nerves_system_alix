@@ -1,6 +1,10 @@
 # NervesSystemAlix
 
-**TODO: Add description**
+This configuration is for a PC Engines ALIX board using an AMD Geode LX CPU. It
+was a formerly supported platform for Nerves. The configuration is been modified
+as changes to `nerves_system_br` have been made, but the changes have not been
+tested. If you're looking for a more tested x86 board, look at
+`nerves_system_ag150`.
 
 ## Installation
 
