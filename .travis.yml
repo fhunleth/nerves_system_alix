@@ -56,7 +56,7 @@ deploy:
     on:
       repo: nerves-project/nerves_system_alix
       tags: true
-  # Copy all build products to S3
+  # Copy all build products to S3 
   - provider: s3
     access_key_id: $ARTIFACTS_KEY
     secret_access_key: $ARTIFACTS_SECRET
