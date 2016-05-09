@@ -20,9 +20,9 @@ defmodule NervesSystemAlix.Mixfile do
   end
 
   defp deps do
-    [{:nerves_system, github: "nerves-project/nerves_system"},
-     {:nerves_system_br, github: "nerves-project/nerves_system_br", tag: "v0.4.0"},
-     {:nerves_toolchain_i586_unknown_linux_gnu, github: "nerves-project/nerves_toolchain_i586_unknown_linux_gnu"}]
+    [{:nerves_system, "~> 0.1.0"},
+     {:nerves_system_br, "~> 0.4.1"},
+     {:nerves_toolchain_i586_unknown_linux_gnu, "~> 0.6.0"}]
   end
 
   defp description do
